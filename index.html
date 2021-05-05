@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+</head>
+
+<body>
+  <h1>Pre-test Practice</h1>
+  <video controls>
+  </video>
+  
+
+  <h2>Test 1</h2>
+  <h1>Basic audio embed</h1>
+
+  <audio controls style="border:1px solid black">
+    <source src="media/audio.mp3" type="audio/mp3">
+    <p>Your browser does not support HTML5 audio, here's a <a href="media.audio.mp3">link</a> to download the audio.</p>
+  </audio>
+
+
+  <h2>Test 2</h2>
+  <h1>Video embed</h1>
+
+  <video controls width="320" height="240" muted
+  style="border: 1px solid black">
+    <source src="media/video.mp4" type="video/mp4">
+    <source src="media/video.webm" type="video/webm">
+    <track kind="subtitles" src="media/subtitles_en.vtt" srclang="en" label="English">
+    <p>Your browser doesn't support HTML5 video. Here's a <a href="video.mp4">link</a> to download the video.</p>
+  </video>
+
+
+  <h2>Test 3</h2>
+  <h1>Embedding</h1>
+
+  <!-- PDF embed here  -->
+  <object data="media/mypdf.pdf" type="application/pdf"
+width="800" height="1200">
+<p>You don't have a PDF plugin, but you can
+    <a href="media/mypdf.pdf">download the PDF file.
+    </a>
+  </p>
+</object>
+
+  <hr>
+
+  <!-- 3rd party embed here  -->
+  <p>Here's the song 'Typical' by the group MuteMath for your listening pleasure:</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7XVWR-5fiG0" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+</body>
+
+</html>
